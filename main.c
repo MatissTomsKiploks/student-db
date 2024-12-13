@@ -18,7 +18,7 @@ int main(){
 	struct student *data;
 	int err = 0;
 
-	printf("Do you want to see existing dtudent data?\n");
+	printf("Do you want to see existing student data?\n");
 	scanf("%d", &yn);
 	if (yn == 1 ) {
 	        printf("Reading %s\n", file);

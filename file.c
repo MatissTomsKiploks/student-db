@@ -59,7 +59,8 @@ struct student * data_read( const char *file, int *count ){
 		if ( br < sizeof(struct student) )
 			break;
 
-		*count++;
+		(*count)++;
+		printf("Count is %d\n", *count);
 		data = (struct student *)realloc( data, sizeof(struct student) * (*count + 1) );
 		if ( !data )
 			break;
