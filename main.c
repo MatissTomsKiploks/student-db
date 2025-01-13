@@ -75,7 +75,7 @@ int main() {
     struct student *data;
     int err = 0;
 
-    printf("Do you want to read existing student data?(1/0)\n");
+    printf("Do you want to read/see existing student data?(1/0)\n");
     scanf("%d", &yn);
     if ( yn == 1 ) {
 	printf("Reading %s\n", file);
